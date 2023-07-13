@@ -7,13 +7,20 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:taswirti/main.dart';
+import 'package:firebase_analytics/firebase_analytics.dart';
+import 'package:firebase_analytics/observer.dart';
 
 import 'package:taswirti/main.dart';
 
 void main() {
+  final FirebaseAnalytics analytics = FirebaseAnalytics();
+  final FirebaseAnalyticsObserver observer = FirebaseAnalyticsObserver(analytics: analytics);
+
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp());
+await tester.pumpWidget(MyApp(observer: observer));
+
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);

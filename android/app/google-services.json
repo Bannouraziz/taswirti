@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "126599790485",
+    "project_id": "taswirti-1d36d",
+    "storage_bucket": "taswirti-1d36d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126599790485:android:982425533c9a4cfc2c009c",
+        "android_client_info": {
+          "package_name": "com.bannour.taswirti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126599790485-ra2qjr8ii9qaq2bpij67rte5d790kukr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bannour.taswirti",
+            "certificate_hash": "a2679d9d0d27a10e8ea9cfe95be963b1971d1590"
+          }
+        },
+        {
+          "client_id": "126599790485-55n2cc5aefucoqt19f10f5fbg4qk9pht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVW8Q3bfNfIQkkT3QPathtDgmryzMxPPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126599790485-55n2cc5aefucoqt19f10f5fbg4qk9pht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-2387980696765990~2211389199"
+    }
+  ],
+  "configuration_version": "1"
+}

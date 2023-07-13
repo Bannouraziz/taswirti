@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class WallpaperProvider {
-  static Future<List<String>> searchWallpapers(String searchTerm) async {
-    final apiKey = '36954949-b793f308fc91ba642f2c2a586';
+  static Future<List<String>> searchWallpapers(String searchTerm, int perPage) async {
+    const apiKey = '36954949-b793f308fc91ba642f2c2a586';
     final url =
         'https://pixabay.com/api/?key=$apiKey&q=$searchTerm&image_type=photo';
 

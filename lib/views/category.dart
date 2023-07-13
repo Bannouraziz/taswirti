@@ -3,12 +3,12 @@ class CategoriesTile extends StatelessWidget {
   final String imgUrl;
   final String title;
 
-  CategoriesTile({required this.title, required this.imgUrl});
+  const CategoriesTile({super.key, required this.title, required this.imgUrl});
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.only(right: 5),
+      margin: const EdgeInsets.only(right: 5),
       child: Stack(
         children: <Widget>[
           ClipRRect(
@@ -22,7 +22,7 @@ class CategoriesTile extends StatelessWidget {
            color: Colors.black12,
            height: 150,width: 150, 
             alignment: Alignment.center,
-            child: Text(title,style: TextStyle(color: Colors.white),),
+            child: Text(title,style: const TextStyle(color: Colors.white),),
           ),
         ],
       ),

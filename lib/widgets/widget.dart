@@ -1,4 +1,3 @@
-import 'dart:ui';
 
 import 'package:flutter/material.dart';
 Widget BrandName() {
@@ -6,7 +5,7 @@ Widget BrandName() {
     child: Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
-        Text(
+        const Text(
           "taswir",
           style: TextStyle(
             color: Colors.black87,
